@@ -1,7 +1,7 @@
 body {
-    font-family: 'karla' sans-serif;
-    font-family: 'storm' karla;
-    color: aliceblue;
+  font-family: 'karla' sans-serif;
+  font-family: 'storm' karla;
+  color: aliceblue;
 }
 
 @font-face {
@@ -16,286 +16,287 @@ body {
 
 :root {
 
-    --first-color: hsl(82, 60%, 28%);
-    --title-color: hsl(0, 0%, 15%);
-    --text-color: hsl(0, 0%, 35%);
-    --body-color: hsl(0, 0%, 95%);
-    --container-color: hsl(0, 100%, 15%);
+  --first-color: hsl(82, 60%, 28%);
+  --title-color: hsl(0, 0%, 15%);
+  --text-color: hsl(0, 0%, 35%);
+  --body-color: hsl(0, 0%, 95%);
+  --container-color: hsl(0, 100%, 15%);
 
-    --body-font: "Poppins", sans-serif;
-    --h2-font-size: 2.50rem;
-    --small-font-size: .813rem;
+  --body-font: "Poppins", sans-serif;
+  --h2-font-size: 2.50rem;
+  --small-font-size: .813rem;
 }
 
 @media screen and (min-width: 1120px) {
-    :root {
-        --h2-font-size: 1.5rem;
-        --small-font-size: .875rem;
-    }
+  :root {
+    --h2-font-size: 1.5rem;
+    --small-font-size: .875rem;
+  }
 }
 
 .section-one {
-    text-align: center;
-    font-family: 'karla', sans-serif;
-    color: aliceblue;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  text-align: center;
+  font-family: 'karla', sans-serif;
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .section-two {
-    background-image: url('public/img/maoback.jpg');
-    color: black;
-    font-family: 'karla', sans-serif;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    height: 110vh;
-    width: 100%;
+  background-image: url('public/img/maoback.jpg');
+  color: black;
+  font-family: 'karla', sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: 110vh;
+  width: 100%;
 }
 
 .section-three {
-    font-family: 'karla', sans-serif;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    background-color: rgb(0, 0, 0);
-    background-image: url(public/img/backsection3.gif);
-    background-size: cover;
+  font-family: 'karla', sans-serif;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: rgb(0, 0, 0);
+  background-image: url(public/img/backsection3.gif);
+  background-size: cover;
 }
 
 .section-four {
-   background-color: black;
+  background-color: black;
 }
 
 .section-one #background {
-    position: fixed;
-    inset: 0;
-    z-index: -1;
-
-    width: 100%;
-    height: 100vh;
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
 }
 
 .section-one #background video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .section-one #background::after {
-    content: '';
-    width: inherit;
-    height: inherit;
-    position: fixed;
-    inset: 0;
-    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+  content: '';
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
 }
 
 
 .section-one img {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .section-one p {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 .section-two .container {
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    display: flex;
-    place-items: center;
-    margin-inline: 1.5rem;
-    padding-block: 5rem;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  place-items: center;
+  margin-inline: 1.5rem;
+  padding-block: 5rem;
 }
 
 .section-two img {
-    margin-top: 50px;
-    margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .section-two .info__container {
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    display: flex;
-    row-gap: 3.5rem;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  row-gap: 3.5rem;
 }
 
 .section-two .info__article {
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    position: relative;
-    overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .section-two .info__img {
-    width: 328px;
-    border-radius: 1.5rem;
+  width: 328px;
+  border-radius: 1.5rem;
 }
 
 .section-two .info__data {
-    width: 100px;
-    background-color: var(--container-color);
-    padding: 1rem 1rem;
-    box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.15);
-    border-radius: 1rem;
-    position: absolute;
-    bottom: -9rem;
-    left: 0;
-    right: 0;
-    margin-inline: auto;
-    opacity: 0;
-    transition: opacity 1s 1s;
+  width: 100px;
+  background-color: var(--container-color);
+  padding: 1rem 1rem;
+  box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.15);
+  border-radius: 1rem;
+  position: absolute;
+  bottom: -9rem;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  opacity: 0;
+  transition: opacity 1s 1s;
 }
 
 .section-two .info__title {
-    font-size: 40px;
-    font-weight: 500;
-    font-family: 'drips', karla;
-    color: rgb(255, 0, 0);
-    margin-bottom: .75rem;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'drips', karla;
+  color: rgb(255, 0, 0);
+  margin-bottom: .75rem;
 }
 
 .section-two .info__button {
-    text-decoration: none;
-    font-size: var(--small-font-size);
-    font-weight: 500;
-    color: rgb(255, 0, 0);
+  text-decoration: none;
+  font-size: var(--small-font-size);
+  font-weight: 500;
+  color: rgb(255, 0, 0);
 }
 
 .section-two .info__button:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .section-two .info__article:hover .info__data {
-    animation: show-data 1s forwards;
-    opacity: 1;
-    transition: opacity .3s;
+  animation: show-data 1s forwards;
+  opacity: 1;
+  transition: opacity .3s;
 }
 
 .section-two .info__article:hover {
-    animation: remove-overflow 2s forwards;
+  animation: remove-overflow 2s forwards;
 }
 
 .section-two .info__article:not(:hover) {
-    animation: show-overflow 2s forwards;
+  animation: show-overflow 2s forwards;
 }
 
 .section-two .info__article:not(:hover) .info__data {
-    animation: remove-data 1s forwards;
+  animation: remove-data 1s forwards;
 }
 
 .section-two .info__description {
-    display: block;
-    font-size: var(--small-font-size);
-    margin-bottom: .25rem;
-    color: white;
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: .25rem;
+  color: white;
 
 }
 
 @keyframes show-data {
-    50% {
-        transform: translateY(-7rem);
-    }
+  50% {
+    transform: translateY(-7rem);
+  }
 
-    100% {
-        transform: translateY(-7rem);
-    }
+  100% {
+    transform: translateY(-7rem);
+  }
 }
 
 @keyframes remove-overflow {
-    to {
-        overflow: initial;
-    }
+  to {
+    overflow: initial;
+  }
 }
 
 @keyframes remove-data {
-    0% {
-        transform: translateY(-10rem);
-    }
+  0% {
+    transform: translateY(-10rem);
+  }
 
-    50% {
-        transform: translateY(-10rem);
-    }
+  50% {
+    transform: translateY(-10rem);
+  }
 
-    100% {
-        transform: translateY(.5rem);
-    }
+  100% {
+    transform: translateY(.5rem);
+  }
 }
 
 @keyframes show-overflow {
-    0% {
-        overflow: initial;
-        pointer-events: none;
-    }
+  0% {
+    overflow: initial;
+    pointer-events: none;
+  }
 
-    50% {
-        overflow: hidden;
-    }
+  50% {
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width: 340px) {
-    .container {
-        margin-inline: 1rem;
-    }
+  .container {
+    margin-inline: 1rem;
+  }
 
-    .info__data {
-        width: 250px;
-        padding: 1rem;
-    }
+  .info__data {
+    width: 250px;
+    padding: 1rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .info__container {
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 1.5rem;
-    }
+  .info__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 1120px) {
-    .container {
-        height: 100vh;
-    }
+  .container {
+    height: 100vh;
+  }
 }
 
 .section-two .info__container {
-    margin-top: -250px;
-    grid-template-columns: repeat(3, 1fr);
+  margin-top: -250px;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .section-two .info__img {
-    width: 350px;
-    height: 300px;
-    object-fit: cover;
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
 }
 
 .section-two .info__data {
-    width: 316px;
-    padding-inline: 2.5rem;
+  width: 316px;
+  padding-inline: 2.5rem;
 }
 
 .section-two .titulo {
-    font-size: 450%;
-    color: white;
-    padding: 40px;
-    text-align: center;
-    margin: 0;
+  font-size: 450%;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  margin: 0;
 }
 
 :root {
@@ -325,6 +326,7 @@ body {
     --normal-font-size: 1rem;
   }
 }
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -343,6 +345,7 @@ body {
   max-width: 100%;
   height: auto;
 }
+
 .container {
   margin-inline: 1.5rem;
   padding-block: 5rem;
@@ -475,8 +478,16 @@ body {
   font-family: 'storm', karla;
 }
 
+.modal__name6 {
+  font-size: 30px;
+  color: red;
+  margin-bottom: .5rem;
+  font-family: 'storm', karla;
+}
+
 .modal__info {
   margin-bottom: 1rem;
+  color: aliceblue;
 }
 
 .modal__price {
@@ -534,6 +545,7 @@ body {
   .modal {
     padding-inline: 1rem;
   }
+
   .modal__buttons {
     flex-direction: column;
   }
@@ -565,11 +577,13 @@ body {
     gap: 3rem;
     padding: 250px;
   }
+
   .card__product {
     padding-block: 2rem;
     border-width: 6px;
   }
-  .card__name, 
+
+  .card__name,
   .card__price {
     font-size: var(--h3-font-size);
   }
@@ -578,60 +592,65 @@ body {
     max-width: 376px;
     padding: 3rem 2.5rem 2.5rem;
   }
+
   .modal__img {
     width: 250px;
   }
-  .modal__name, 
+
+  .modal__name,
   .modal__price {
     font-size: var(--h3-font-size);
   }
+
   .modal__buttons {
     column-gap: 1rem;
   }
 }
+
 .principal #background::after {
-    content: '';
-    width: inherit;
-    height: inherit;
-    position: fixed;	
-    inset: 0;
-    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+  content: '';
+  width: inherit;
+  height: inherit;
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
 }
 
 .principal {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    min-height: calc(100vh - 152px);
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  min-height: calc(100vh - 152px);
+  justify-content: center;
 }
 
 .principal .lista-personagem {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
 }
 
 .principal .personagens {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 585px;
-    gap: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 585px;
+  gap: 24px;
 }
 
 .principal .personagem {
-    border-bottom: 4px;
+  border-bottom: 4px;
 }
 
 .principal .personagem img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
+
 .principal .personagens .lista-personagem {
-    background-image: url('public/img/background-fundo.png');
-    object-fit: cover;
+  background-image: url('public/img/background-fundo.png');
+  object-fit: cover;
 }
 
 .card__container {
@@ -662,7 +681,7 @@ body {
   background-color: black;
   font-family: 'karla', sans-serif;
   display: flex;
-  height: 50vh;
+  height: 75vh;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -672,6 +691,7 @@ body {
 
 .section-four .s4-container {
   width: 140vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -697,7 +717,7 @@ body {
   align-items: center;
   margin-bottom: 60px;
 }
- 
+
 .minimos .recomendados {
   flex: 1;
   margin: 0 10px;
@@ -710,25 +730,26 @@ body {
 }
 
 .section-four .baixe-container img {
-  margin-bottom: 3vh;
+  margin-bottom: 0;
   text-align: center;
   justify-content: center;
   align-items: center;
+
 }
 
 .section-four .baixe {
   width: 50vh;
   align-items: center;
   justify-content: center;
-  display: grid;
+  display: flex;
 }
 
 .section-two {
-  background-image: url(public/img/maoback.jpg);
+  background-image: url('public/img/maoback.jpg');
   background-size: cover;
 }
 
 .section-four {
-  background-image: url(public/img/helpback.png);
+  background-image: url(public/img/helback.png);
   background-size: cover;
 }
