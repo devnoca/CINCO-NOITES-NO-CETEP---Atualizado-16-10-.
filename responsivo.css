@@ -1,0 +1,110 @@
+/*Autores: Ana Luisa Saraiva Teixeira Eduardo dos Santos Costa 3ºD*/
+/* Responsividade para celulares*/
+@media (max-width: 479px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .section-one {
+    height: 130vh;
+    padding: 0 4%;
+  }
+  .section-two img {
+    margin-bottom: 25vh;
+    width: 350px;
+  }
+  .section-two {
+    height: 1350px;
+    width: 479px;
+  }
+  .section-two .info__container {
+    flex-direction: column;
+  }
+  .section-two .info__img {
+    margin: 0px 0px 0px;
+  }
+  .section-three {
+    height: 1200px;
+  }
+  .section-three .card__container {
+    gap: 30px;
+    padding: 0 4%;
+  }
+  .section-three .modal__img {
+    height: 50vh;
+    width: 30vh;
+  }
+  .section-four .s4-container {
+    width: 479px;
+  }
+  .section-four {
+    height: 100vh;
+    padding: 0;
+  }
+  .section-four .download {
+    width: 60vh;
+  }
+  .section-four .baixe img {
+    width: 50vh;
+    padding: 0 4%;
+  }
+  .section-four .baixe {
+    margin-top: 200px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Responsividade para tablets*/
+@media (min-width: 768px) and (max-width: 1280px) {
+  .section-one {
+    height: 100vh;
+    padding: 0 4%;
+  }
+  .section-two img {
+    margin-bottom: 25vh;
+    width: 450px;
+  }
+  .section-two {
+    height: 1280px;
+  }
+  .section-two .info__container {
+    flex-direction: column;
+  }
+  .section-two .info__img {
+    margin: 0px 0px 0px;
+  }
+  .section-three {
+    height: 130vh;
+  }
+  .section-three .card__container {
+    gap: 30px;
+    padding: 0 4%;
+  }
+  .section-three .modal__img {
+    height: 50vh;
+    width: 30vh;
+  }
+  .section-four .s4-container {
+    width: 600px;
+    height: 500px;
+  }
+  .section-four {
+    height: 660px;
+    width: 768px;
+    max-width: 1280px;
+    padding: 0;
+  }
+  .section-four .download {
+    width: 65vh;
+  }
+  .section-four .baixe img {
+    width: 50vh;
+    padding: 0 4%;
+  }
+  .section-four .baixe {
+    margin-top: 20px;
+  }
+  .section-four .requisitos {
+    font-size: 18px;
+  }
+}
